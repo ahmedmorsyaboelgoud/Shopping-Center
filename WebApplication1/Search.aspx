@@ -28,6 +28,13 @@
                         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        <asp:Button ID="Button1" runat="server" Text="Search" />
+                    </td>
+                </tr>
             </table>
         </div>
     </form>
