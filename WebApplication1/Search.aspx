@@ -29,11 +29,11 @@
                     </td>
                 </tr>
                 <tr>
+                    <td style="text-align: center">
+                        <asp:Button ID="Button2" runat="server" Text="Search" />
+                    </td>
                     <td>
                         &nbsp;</td>
-                    <td>
-                        <asp:Button ID="Button1" runat="server" Text="Search" />
-                    </td>
                 </tr>
             </table>
         </div>
