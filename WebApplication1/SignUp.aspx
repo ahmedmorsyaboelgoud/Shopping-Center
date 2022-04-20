@@ -23,12 +23,10 @@
             height: 26px;
         }
         .auto-style4 {
-            text-align: justify;
         }
         .auto-style5 {
             height: 29px;
-            text-align: justify;
-        }
+            }
         .auto-style6 {
             height: 29px;
         }
@@ -39,9 +37,17 @@
         <div>
             <table class="auto-style1">
                 <tr>
-                    <td colspan="4" style="text-align: center; font-size: x-large;">
+                    <td colspan="4" style="text-align: left; font-size: x-large;">
                         <asp:Label ID="Label1" runat="server" Font-Bold="True" style="font-size: x-large; text-align: center" Text="SignUp Form" ForeColor="Black"></asp:Label>
                     </td>
+                </tr>
+                <tr>
+                    <td style="text-align: justify">
+                        &nbsp;</td>
+                    <td class="auto-style4">
+                        &nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td style="text-align: justify">
@@ -135,6 +141,10 @@
                     <td colspan="4" style="text-align: justify">
                         <asp:Button ID="Button1" runat="server" Height="31px" style="text-align: center; font-weight: 700" Text="SignUp" Font-Names="Times New Roman" />
                     </td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="text-align: justify">
+                        &nbsp;</td>
                 </tr>
             </table>
         </div>

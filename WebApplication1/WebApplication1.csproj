@@ -68,11 +68,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Home.html" />
+    <Content Include="links.html" />
     <Content Include="Login.aspx" />
+    <Content Include="logo.html" />
     <Content Include="logo.png" />
     <Content Include="Search.aspx" />
     <Content Include="SignUp.aspx" />
     <Content Include="Web.config" />
+    <Content Include="welcome.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Login.aspx.cs">
