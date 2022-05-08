@@ -160,7 +160,7 @@
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox5" ErrorMessage="Required field!!" Font-Size="Small" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                     </td>
                     <td>
-                        <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="TextBox5" ErrorMessage="8-16 Characters" Font-Size="Small" ForeColor="#CC0000"></asp:RegularExpressionValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="TextBox5" ErrorMessage="8-16 Characters" Font-Size="Small" ForeColor="#CC0000" ValidationExpression="\w{8,16}"></asp:RegularExpressionValidator>
                     </td>
                 </tr>
                 <tr>
