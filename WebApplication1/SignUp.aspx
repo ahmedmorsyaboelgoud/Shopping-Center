@@ -79,13 +79,13 @@
                         <asp:Label ID="Label2" runat="server" Text="First name:" Font-Names="Times New Roman"></asp:Label>
                     </td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="TextBox1" runat="server" Width="213px"></asp:TextBox>
+                        <asp:TextBox ID="fntxt" runat="server" Width="213px"></asp:TextBox>
                     </td>
                     <td style="text-align: center" class="auto-style16">
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="Required field!!" Font-Size="Small" ForeColor="#CC0000"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="fntxt" ErrorMessage="Required field!!" Font-Size="Small" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                     </td>
                     <td class="auto-style15">
-                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="Invalide name !!" Font-Size="Small" ForeColor="#CC0000" ValidationExpression="([A-Z][a-z]*\s[A-Z][a-z]*)|([A-Z][a-z]*)"></asp:RegularExpressionValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="fntxt" ErrorMessage="Invalide name !!" Font-Size="Small" ForeColor="#CC0000" ValidationExpression="([A-Z][a-z]*\s[A-Z][a-z]*)|([A-Z][a-z]*)"></asp:RegularExpressionValidator>
                     </td>
                 </tr>
                 <tr>
@@ -93,13 +93,13 @@
                         <asp:Label ID="Label3" runat="server" Text="Last name:" Font-Names="Times New Roman"></asp:Label>
                     </td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="TextBox2" runat="server" Width="212px"></asp:TextBox>
+                        <asp:TextBox ID="lntxt" runat="server" Width="212px"></asp:TextBox>
                     </td>
                     <td class="auto-style6">
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="TextBox2" ErrorMessage="Required field!!" Font-Size="Small" ForeColor="#CC0000"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="lntxt" ErrorMessage="Required field!!" Font-Size="Small" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                     </td>
                     <td class="auto-style15">
-                        <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="TextBox2" ErrorMessage="Invalide name !!" Font-Size="Small" ForeColor="#CC0000" ValidationExpression="([A-Z][a-z]*\s[A-Z][a-z]*)|([A-Z][a-z]*)"></asp:RegularExpressionValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="lntxt" ErrorMessage="Invalide name !!" Font-Size="Small" ForeColor="#CC0000" ValidationExpression="([A-Z][a-z]*\s[A-Z][a-z]*)|([A-Z][a-z]*)"></asp:RegularExpressionValidator>
                     </td>
                 </tr>
                 <tr>
@@ -107,10 +107,10 @@
                         <asp:Label ID="Label5" runat="server" Font-Names="Times New Roman" Text="Username"></asp:Label>
                         :</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="TextBox7" runat="server" Width="211px"></asp:TextBox>
+                        <asp:TextBox ID="ustxt" runat="server" Width="211px"></asp:TextBox>
                     </td>
                     <td class="auto-style2">
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextBox7" ErrorMessage="Required field!!" Font-Size="Small" ForeColor="#CC0000"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="ustxt" ErrorMessage="Required field!!" Font-Size="Small" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                     </td>
                     <td class="auto-style2"></td>
                 </tr>
@@ -119,13 +119,13 @@
                         <asp:Label ID="Label9" runat="server" Font-Names="Times New Roman" Text="E-Mail:"></asp:Label>
                     </td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="TextBox3" runat="server" Width="210px"></asp:TextBox>
+                        <asp:TextBox ID="etxt" runat="server" Width="210px"></asp:TextBox>
                     </td>
                     <td class="auto-style6">
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TextBox3" ErrorMessage="Required field!!" Font-Size="Small" ForeColor="#CC0000"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="etxt" ErrorMessage="Required field!!" Font-Size="Small" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                     </td>
                     <td class="auto-style15">
-                        <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TextBox3" ErrorMessage="Invalide mail !!" Font-Size="Small" ForeColor="#CC0000" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="etxt" ErrorMessage="Invalide mail !!" Font-Size="Small" ForeColor="#CC0000" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                     </td>
                 </tr>
                 <tr>
@@ -133,7 +133,7 @@
                         <asp:Label ID="Label8" runat="server" Font-Names="Times New Roman" Text="Phone Number:"></asp:Label>
                     </td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="TextBox4" runat="server" Width="210px"></asp:TextBox>
+                        <asp:TextBox ID="phtxt" runat="server" Width="210px"></asp:TextBox>
                     </td>
                     <td class="auto-style2"></td>
                     <td class="auto-style2"></td>
@@ -143,8 +143,10 @@
                         <asp:Label ID="Label4" runat="server" Font-Names="Times New Roman" Text="Gendre:"></asp:Label>
                     </td>
                     <td class="auto-style13">
-                        <asp:CheckBox ID="Male" runat="server" Text="Male" />
-&nbsp;<asp:CheckBox ID="Female" runat="server" Text="Female" />
+                        <asp:RadioButtonList ID="rblsix" runat="server" Width="187px">
+                            <asp:ListItem Value="Male"></asp:ListItem>
+                            <asp:ListItem Value="Female"></asp:ListItem>
+                        </asp:RadioButtonList>
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -154,13 +156,13 @@
                         <asp:Label ID="Label6" runat="server" Font-Names="Times New Roman" Text="Password:"></asp:Label>
                     </td>
                     <td class="auto-style13">
-                        <asp:TextBox ID="TextBox5" runat="server" TextMode="Password" Width="204px"></asp:TextBox>
+                        <asp:TextBox ID="ptxt" runat="server" TextMode="Password" Width="204px"></asp:TextBox>
                     </td>
                     <td style="text-align: center">
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox5" ErrorMessage="Required field!!" Font-Size="Small" ForeColor="#CC0000"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="ptxt" ErrorMessage="Required field!!" Font-Size="Small" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                     </td>
                     <td>
-                        <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="TextBox5" ErrorMessage="8-16 Characters" Font-Size="Small" ForeColor="#CC0000" ValidationExpression="\w{8,16}"></asp:RegularExpressionValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="ptxt" ErrorMessage="8-16 Characters" Font-Size="Small" ForeColor="#CC0000" ValidationExpression="\w{8,16}"></asp:RegularExpressionValidator>
                     </td>
                 </tr>
                 <tr>
@@ -168,13 +170,13 @@
                         <asp:Label ID="Label7" runat="server" Font-Names="Times New Roman" Text="Confirm Password:"></asp:Label>
                     </td>
                     <td class="auto-style13">
-                        <asp:TextBox ID="TextBox6" runat="server" TextMode="Password" Width="202px"></asp:TextBox>
+                        <asp:TextBox ID="cptxt" runat="server" TextMode="Password" Width="202px"></asp:TextBox>
                     </td>
                     <td style="text-align: center">
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TextBox6" ErrorMessage="Required field!!" Font-Size="Small" ForeColor="#CC0000"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="cptxt" ErrorMessage="Required field!!" Font-Size="Small" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                     </td>
                     <td>
-                        <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox5" ControlToValidate="TextBox6" ErrorMessage="Not the same" Font-Size="Small" ForeColor="#CC0000"></asp:CompareValidator>
+                        <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="ptxt" ControlToValidate="cptxt" ErrorMessage="Not the same" Font-Size="Small" ForeColor="#CC0000"></asp:CompareValidator>
                     </td>
                 </tr>
                 <tr>
@@ -186,7 +188,7 @@
                 </tr>
                 <tr>
                     <td colspan="4" style="text-align: justify">
-                        <asp:Button ID="Button1" runat="server" Height="31px" style="text-align: center; " Text="SignUp" Font-Names="Times New Roman" OnClick="Button1_Click" />
+                        <asp:Button ID="signbtn" runat="server" Height="31px" style="text-align: center; " Text="SignUp" Font-Names="Times New Roman" OnClick="signbtn_Click"  />
                     </td>
                 </tr>
                 <tr>

@@ -42,13 +42,13 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// TextBox1 control.
+        /// fntxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox fntxt;
 
         /// <summary>
         /// RequiredFieldValidator1 control.
@@ -78,13 +78,13 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// TextBox2 control.
+        /// lntxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox lntxt;
 
         /// <summary>
         /// RequiredFieldValidator7 control.
@@ -114,13 +114,13 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// TextBox7 control.
+        /// ustxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.TextBox ustxt;
 
         /// <summary>
         /// RequiredFieldValidator3 control.
@@ -141,13 +141,13 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Label Label9;
 
         /// <summary>
-        /// TextBox3 control.
+        /// etxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox etxt;
 
         /// <summary>
         /// RequiredFieldValidator6 control.
@@ -177,13 +177,13 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Label Label8;
 
         /// <summary>
-        /// TextBox4 control.
+        /// phtxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox phtxt;
 
         /// <summary>
         /// Label4 control.
@@ -195,22 +195,13 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// Male control.
+        /// rblsix control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox Male;
-
-        /// <summary>
-        /// Female control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox Female;
+        protected global::System.Web.UI.WebControls.RadioButtonList rblsix;
 
         /// <summary>
         /// Label6 control.
@@ -222,13 +213,13 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// TextBox5 control.
+        /// ptxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.TextBox ptxt;
 
         /// <summary>
         /// RequiredFieldValidator4 control.
@@ -258,13 +249,13 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
-        /// TextBox6 control.
+        /// cptxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.TextBox cptxt;
 
         /// <summary>
         /// RequiredFieldValidator5 control.
@@ -285,12 +276,12 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
 
         /// <summary>
-        /// Button1 control.
+        /// signbtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button signbtn;
     }
 }
